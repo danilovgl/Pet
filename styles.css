@@ -1,0 +1,119 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 44px 0 144px 76px;
+}
+
+.link-header {
+    color: #989D9C;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    margin-right: 23px;
+    cursor: pointer;
+}
+
+#button-login {
+    background: #665AE1;
+    border-radius: 20.5px;
+    padding: 6px 22px 6px 21px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.my-pet {
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    margin-right: 86px;
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+}
+
+p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    width: 515px;
+    color: #848484;
+    margin-top: 32px;
+    margin-bottom: 65px;
+}
+
+.button-explore {
+    background: #ADFF00;
+    border-radius: 30px;
+    width: 239px;
+    height: 64px;
+    border: none;
+    filter: drop-shadow(0px 4px 4px #000000);
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+    header {
+        display: none;
+    }
+    .my-pet {
+        width: 568px;
+        height: 500px;
+        position: static;
+        margin: 216px 22px 25px 22px;
+    }
+    h1 {
+        font-size: 75px;
+        line-height: 61px;
+        width: auto;
+        margin: 24.5px 64px 7px 64px;
+        text-align: center;
+    }
+    h2 {
+        font-size: 40px;
+        line-height: 37px;
+        width: auto;
+        margin: 7px 79px 17px 79px;
+        text-align: center;
+    }
+    p {
+        font-size: 0;
+    }
+    .button-explore {
+        margin: 17px 76px 133px 76px;
+        display: block;
+        width: 357px;
+        height: 113px;
+        border-radius: 68px;
+        font-size: 43px;
+    }
+}
